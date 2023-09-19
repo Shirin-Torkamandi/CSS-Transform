@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin: 25px;
+}
+div {
+    align-self: center;
+}
+.white {
+    background-color: white;
+    box-shadow: 0px 0px 3px gray;
+    width: 120px;
+    height: 80px;
+    margin: 15px;
+    position: relative;
+}
+.gray {
+    background-color: silver;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+.purple {
+    background-color: rgba(163, 39, 143, 0.45);
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    transition-duration: 0.5s;
+}
+#div1:hover {
+ transform: rotate(45deg);
+}
+#div2:hover {
+ transform: rotatex(45deg);
+}
+#div3:hover {
+ transform: rotatey(45deg);
+}
+#div4:hover {
+ transform: scale(2);
+}
+#div5:hover {
+ transform: scale(2,1);
+}
+#div6:hover {
+ transform: scale(1,2);
+}
+#div7:hover {
+ transform: skew(45deg);
+}
+#div8:hover {
+ transform: skew(0,45deg);
+}
+#div9:hover {
+ transform: translate(30px,10px);
+}
+#div10:hover {
+ transform: translate(30px,0);
+}
+#div11:hover {
+ transform: translate(0,30px);
+}
+#div12:hover {
+ transform: skew(0,45deg) scale(2) translate(15px,-15px);
+}
+#div13:hover {
+ transform: perspective(63px) rotatex(45deg);
+}
+#div14:hover {
+ transform: perspective(63px) rotatey(45deg);
+}
+#div15:hover {
+ transform: rotate(45deg);
+ transform-origin: top right;
+}
+#div16:hover {
+ transform: rotate(45deg);
+ transform-origin: bottom left;
+}
+#div17:hover {
+ transform: perspective(200px) rotatex(40deg);
+ transform-origin: bottom;
+}
+#div18:hover {
+ transform: perspective(150px) rotatex(55deg);
+ transform-origin: top;
+}
+#div19:hover {
+ transform: perspective(150px) rotatey(40deg);
+ transform-origin: left;
+}
+#div20:hover {
+ transform: perspective(150px) rotatey(55deg);
+ transform-origin: right;
+}
+#div21:hover {
+    transform: scale(2);
+    transform-origin: top right;
+}
+#div22:hover {
+    transform: scale(2);
+    transform-origin: bottom left;
+}
+#div23:hover {
+    transform: scalex(2);
+    transform-origin: right;
+}
+#div24:hover {
+    transform: scalex(2);
+    transform-origin: left;
+}
+#div25:hover {
+    transform: scaley(2);
+    transform-origin: top;
+}
+#div26:hover {
+    transform: scaley(2);
+    transform-origin: bottom;
+}
